@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Compose</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>Compose</h2>
+  </div>
+  
+  <form method="post" action="compose.php">
+  	<div>
+      <label for="Subject">Subject:</label>
+      <input type="text" name="subject" id="subject" style="width: 300px;">
+    </div>
+    <div>
+      <label for="body">Body:</label><br/>
+      <textarea
+         name="body"
+         id="body"
+         style="width: 390px;height: 300px;"
+         title="enter your message here">
+      </textarea>
+    </div>
+    <div>
+      <button type="submit" name="submit">Send</button>
+    </div>
+  </form>
+</body>
+</html>

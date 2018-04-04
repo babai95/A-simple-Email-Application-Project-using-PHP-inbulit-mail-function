@@ -1,0 +1,11 @@
+database name:email_app
+table name:mailing list
+There are 4 col. in the table: id,first_name,last_name,email
+After we have created the above in phpmyadmin, we go to privileges section and click
+on add new user. After that, fill the following details reqd. for connection 
+
+name:email_app
+host:localhost
+user:email_admin
+for password, click on generate password. Use that password which will be generated.
+password:yCeGPdy7SxoUdPHc
